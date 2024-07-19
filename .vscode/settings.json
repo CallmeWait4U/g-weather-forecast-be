@@ -1,0 +1,17 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "eslint.packageManager": "pnpm",
+    "eslint.workingDirectories": [
+      "./"
+    ],
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true
+    },
+    "[prisma]": {
+      "editor.defaultFormatter": "Prisma.prisma"
+    }
+}
